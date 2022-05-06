@@ -12,10 +12,6 @@
   margin: auto;
 }
 
-.app .imagecontainer img {
-  width: 40%;
-}
-
 @media (max-width: 768px) {
   .app .container {
     width: 90%;
@@ -27,4 +23,12 @@
   font-size: 28px;
   font-weight: 700;
 }
-/*# sourceMappingURL=App.module.css.map */
+
+.app .container .imagecontainer {
+  width: 100%;
+}
+
+.app .container .imagecontainer img {
+  width: 100px;
+}
+/*# sourceMappingURL=App.css.map */

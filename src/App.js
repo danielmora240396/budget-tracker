@@ -3,6 +3,7 @@ import { useEffect, useReducer, useState } from 'react';
 import { Balance } from './Components/Balance/Balance';
 import { History } from './Components/History/History';
 import { Transaction } from './Components/Transaction/Transaction';
+import badger from '../src/Media/badger.png'
 
 const listReducer = (state, action) => {
   if(action.type === 'ADD_ITEM') {
@@ -55,7 +56,8 @@ function App() {
   return (
     <div className={classes.app}>
       <div className={classes.container}>
-        <div className={classes.headline}>Expense Tracker</div>
+        <div className={classes.headline}>Badger Tracker</div>
+        <div className={classes.imagecontainer}><img src={badger}></img></div>
         <Balance amount={balance} income={totalIncome} expense={totalExpense}></Balance>
         <History list={listState} removeItem = {removeTransaction}></History>
         <Transaction addTransaction={addTransaction}></Transaction>

@@ -1,0 +1,31 @@
+.item {
+  -webkit-box-shadow: 8px 8px 15px -7px rgba(0, 0, 0, 0.75);
+          box-shadow: 8px 8px 15px -7px rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.item.expense {
+  border-right: 5px red solid;
+}
+
+.item.income {
+  border-right: 5px green solid;
+}
+
+.item > div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.item > div:last-child {
+  text-align: right;
+}
+/*# sourceMappingURL=Item.css.map */
