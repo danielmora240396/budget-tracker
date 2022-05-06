@@ -1,0 +1,45 @@
+.balance {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+
+    div:first-child {
+        margin-bottom: 5px;
+    }
+
+    .balance-card {
+        margin-top: 20px;
+        height: 100px;
+        box-shadow: 8px 8px 31px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 8px 8px 31px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 8px 8px 31px -7px rgba(0,0,0,0.75);
+        display: flex;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        background-color: white;
+
+        &-income {
+            flex: 0 0 50%;
+            text-align: center;
+            border-right: solid 1px black;
+
+            &-amount {
+                font-size: 28px;
+                margin-top: 20px;
+                color: green;
+            }
+
+        }
+
+        &-expense {
+            flex: 0 0 50%;
+            text-align: center;
+
+            &-amount {
+                font-size: 28px;
+                margin-top: 20px;
+                color: red;
+            }
+        }
+    }
+}

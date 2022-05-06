@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;CAQnB;;AANI,AAAD,iBAAU,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,eAAe;EAC9B,cAAc,EAAE,IAAI;CACvB",
+    "sources": [
+        "History.scss"
+    ],
+    "names": [],
+    "file": "History.module.css"
+}

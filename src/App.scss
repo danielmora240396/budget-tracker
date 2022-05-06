@@ -1,0 +1,24 @@
+.app {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #e1e1e1;
+    min-height: 100vh;
+    padding-top: 30px;
+
+    .container {
+        width: 650px;
+        padding: 0 15px;
+        margin: auto;
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
+
+        .headline {
+            padding-bottom: 30px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+    }
+}
+  

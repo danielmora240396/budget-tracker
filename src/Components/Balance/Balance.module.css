@@ -1,0 +1,45 @@
+.balance {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.balance div:first-child {
+  margin-bottom: 5px;
+}
+
+.balance .balance-card {
+  margin-top: 20px;
+  height: 100px;
+  box-shadow: 8px 8px 31px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 8px 31px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 8px 31px -7px rgba(0, 0, 0, 0.75);
+  display: flex;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+.balance .balance-card-income {
+  flex: 0 0 50%;
+  text-align: center;
+  border-right: solid 1px black;
+}
+
+.balance .balance-card-income-amount {
+  font-size: 28px;
+  margin-top: 20px;
+  color: green;
+}
+
+.balance .balance-card-expense {
+  flex: 0 0 50%;
+  text-align: center;
+}
+
+.balance .balance-card-expense-amount {
+  font-size: 28px;
+  margin-top: 20px;
+  color: red;
+}
+/*# sourceMappingURL=Balance.module.css.map */

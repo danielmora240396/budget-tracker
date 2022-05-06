@@ -1,0 +1,27 @@
+.item {
+    box-shadow: 8px 8px 15px -7px rgba(0,0,0,0.75);
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    background-color: white;
+    cursor: pointer;
+
+    &.expense {
+        border-right: 5px red solid;
+    }
+
+    &.income {
+        border-right: 5px green solid;
+    }
+
+
+
+    > div {
+        flex: 0 0 50%;
+    }
+
+    > div:last-child {
+        text-align: right;
+    }
+}

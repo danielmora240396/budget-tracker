@@ -1,0 +1,12 @@
+.transaction {
+    text-align: left;
+    margin-top: 30px;
+
+    &-headline {
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+    
+}
