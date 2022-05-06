@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1d6a2f1.css",
-    "main.js": "/static/js/main.eb3bce1c.js",
-    "static/js/787.3523ed75.chunk.js": "/static/js/787.3523ed75.chunk.js",
-    "static/media/badger.png": "/static/media/badger.8101b11add8b6f3a2246.png",
+    "main.css": "./static/css/main.f1d6a2f1.css",
+    "main.js": "./static/js/main.eb3bce1c.js",
+    "./static/js/787.3523ed75.chunk.js": "./static/js/787.3523ed75.chunk.js",
+    "./static/media/badger.png": "./static/media/badger.8101b11add8b6f3a2246.png",
     "index.html": "/index.html",
     "main.f1d6a2f1.css.map": "/static/css/main.f1d6a2f1.css.map",
     "main.eb3bce1c.js.map": "/static/js/main.eb3bce1c.js.map",
